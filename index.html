@@ -29,9 +29,18 @@ body{  width=500px; background-image:url('Background.jpg');background-size: 100%
 height="766" scrolling="no">
 </iframe>
  <div style="width: 550px; height: 390px; overflow: hidden;margin-top:30px;margin-left: 907px;    background-color: white" >
-<iframe src="https://clans-strife.mcdonate.ru/#panel-body" width="1000"
+<iframe id="result" src="https://clans-strife.mcdonate.ru/#panel-body" width="1000"
 height="600" style="border:none" scrolling="no">
 </iframe></div>
+<script>
+
+	$(function() {
+
+		$("#result").load("https://clans-strife.mcdonate.ru/#panel-body");
+
+	}); 
+
+</script>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top" style="margin-left:400px;width: 57%">
